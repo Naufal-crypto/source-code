@@ -1,0 +1,107 @@
+body{
+  /*background-color: rgb(255, 0, 0);
+  background-image: url("background.jpg");
+  background-attachment: fixed;*/
+  background: rgb(255, 0, 0) url("jope.jpg") fixed
+}
+
+
+h1{
+  color: yellow;
+  text-align: center;
+  text-decoration: underline;
+  display: inline;
+}
+
+h2{
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline;
+}
+
+#teks_pendek{
+  font-size: 24px;
+  text-transform: capitalize;
+  color: red;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 50%;
+  height: 200px;
+/*  visibility: hidden;*/
+  display: none;
+}
+
+#text_panjang{
+  color: red;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+#menu_wrap{
+    /*margin: top right bottom left */
+    margin: 10px 0 50px 0;
+}
+
+/*kondisi biasa*/
+.menu:link{
+  background: red;
+  color: blue;
+}
+
+/*kondisi setelah di kunjungi*/
+.menu:visited{
+    background: green;
+}
+
+/*kondisi hover*/
+.menu:hover{
+  background: blue;
+}
+
+/*kondisi di kilik*/
+.menu:active{
+  background: white;
+}
+
+.menu{
+/*  height: 50px;
+  width: 50px; */
+  display:inline-block;
+  text-decoration: none;
+  border :3px solid red;
+  padding: 10px 5px;
+}
+/*mengatur posisi di css
+#menu_member{
+  position: absolute;
+  top:70px;
+  left:20px;
+}
+
+#parent_h1{
+  position: relative;
+  top: 100px
+}
+
+#h1_member{
+  background: red;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  z-index: -1;
+}
+
+#parent_h2{
+  position: relative;
+  top: 100px;
+}
+
+#h2_member{
+  background: yellow;
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  z-index: -3;
+}
+*/
